@@ -20,7 +20,7 @@ const greeting = () => async (ctx: Context) => {
   const userName = `${ctx.message?.from.first_name} ${ctx.message?.from.last_name}`;
 
   if (messageId) {
-    await replyToMessage(ctx, messageId, `Hello 111, ${userName}!`);
+    await replyToMessage(ctx, messageId, `Hello 222, ${userName}!`);
   }
 };
 
